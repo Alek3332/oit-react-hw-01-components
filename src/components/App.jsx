@@ -4,11 +4,10 @@ import friends from '../data/friends.json';
 import transactions from "../data/transactions.json";
 
 import { Profile } from './Profile/Profile';
-import { Statistics } from "/Statistics/Statistics";
-import { FriendList } from "/FriendList/FriendList";
-import { TransactionHistory } from "/TransactionHistory/TransactionHistory";
-import css from "./App.module.css"
-
+import { Statistics } from './Statistics/Statistics';
+import { FriendList } from './Friends/FriendList';
+import { TransactionHistory } from './Transactions/Transactions';
+//import css from "./App.module.css";
 export const App = () => {
   return (
     <div className={css.main}>
